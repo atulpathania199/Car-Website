@@ -1,0 +1,167 @@
+<html>
+<head>
+      <style>
+     div.scroll {
+    width: 1100px;
+    height: 100px;
+    background-color: maroon;
+    overflow: scroll;
+}
+ <meta name="viewport" content="width=device-width, initial-scale=1">
+body {font-family: Arial, Helvetica, sans-serif;}
+form {border: 3px solid #f1f1f1;}
+
+input[type=text], input[type=password] {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+}
+
+button {
+    background-color: #4CAF50;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+}
+
+button:hover {
+    opacity: 0.8;
+}
+
+.cancelbtn {
+    width: auto;
+    padding: 10px 18px;
+    background-color: #f44336;
+}
+
+.imgcontainer {
+    text-align: center;
+    margin: 24px 0 12px 0;
+}
+
+img.avatar {
+    width: 40%;
+    border-radius: 50%;
+}
+
+.container {
+    padding: 16px;
+}
+
+span.psw {
+    float: right;
+    padding-top: 16px;
+}
+
+/* Change styles for span and cancel button on extra small screens */
+@media screen and (max-width: 300px) {
+    span.psw {
+       display: block;
+       float: none;
+    }
+    .cancelbtn {
+       width: 100%;
+    }
+}
+</style>
+<link rel="stylesheet" href="rental.css">
+</head>
+<body>
+  <header>
+  <div class="container">
+    <div id="branding">
+      <h1><span class="highlight">BroooM</span>BroooM</h1>
+    </div>
+    <nav>
+      <ul>
+        <li><a href='index.html'>Home</a></li>
+        <li class="currunt"> <a href="cheapthrill.html">Search</a></li>
+        <li><a href="services.html">services</a></li>
+        <li><a href="contact.html">contact</a></li>
+      </ul>
+    </nav>
+    <nav class="navaction">
+      <ul>
+        <img class="imgaction" src="./_img/signupicon.png" alt="">
+        <li><a href="signup.html">Sign Up</a></li>
+        <img class="imgaction" src="./_img/loginicon.png" alt="">
+        <li><a href="signin.html">Login</a></li>
+      </ul>
+    </nav>
+
+  </div>
+  </header>
+
+  <section id="showcase">
+    <div class="container">
+      <h1>Cheap Thrill's Car Ride's</h1>
+      
+  </section>
+  <h2>Login Form</h2>
+
+<form action="/action_page.php">
+  <div class="imgcontainer">
+    <img class="imgaction" src="./_img/loginicon.png" alt="">
+  </div>
+
+  <div class="container">
+    <label for="uname"><b>Username</b></label>
+    <input type="text" placeholder="Enter Username" name="uname" required>
+
+    <label for="psw"><b>Password</b></label>
+    <input type="password" placeholder="Enter Password" name="psw" required>
+        
+    <button type="submit">Login</button>
+    <label>
+      <input type="checkbox" checked="checked" name="remember"> Remember me
+    </label>
+  </div>
+  <div class="container" style="background-color:#f1f1f1">
+    <button type="button" class="cancelbtn">Cancel</button>
+    <span class="psw">Forgot <a href="#">password?</a></span>
+  </div>
+</form>
+
+ <section id="boxes">
+    <div class="container">
+      <div class="box">
+        <h3>Title</h3>
+        <img src="./_img/services.png" alt="">
+        <p>short details</p>
+      </div>
+
+      <div class="box">
+        <h3>Title</h3>
+        <img src="./_img/location.png"alt="">
+        <p>short details</p>
+      </div>
+
+      <div class="box">
+        <h3>Title</h3>
+        <img src="./_img/contactus.png" alt="">
+        <p>short details</p>
+      </div>
+    </div>
+  </section>
+
+   <section id="destination">
+    <div class="container">
+      <h1>Form Name :</h1>
+      <form>
+        <input type="text" placeholder="Any text...">
+        <button type="submit" class="button_1">Search</button>
+      </form>
+      </div>
+  </section>
+ 
+  
+            
+   
+</body>
+</html>

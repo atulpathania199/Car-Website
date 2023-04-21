@@ -1,0 +1,202 @@
+body
+    
+{
+    border: 2px solid white; 
+	background-color: white;
+	
+    background-image: url("Car/racing.jpg");
+   
+}
+table {
+	border: 2px dotted red;
+	background-color: pink;
+}
+
+p {
+	text-decoration: overline;
+	color:white;
+}
+
+/* Style the redcolor class*/
+.orangecolor {
+	 color:orange
+}
+table, th, th {
+border: 2px solid red;}
+
+  .container {
+    width: 90%;
+    margin: auto;
+    overflow: hidden;
+  }
+
+  ul {
+    padding: 0;
+    margin: 0;
+  }
+
+  .navaction {
+    float: right;
+    padding: 0;
+
+  }
+
+  .imgaction {
+    width: 40px;
+    height: 40px;
+    float: left;
+    padding: 0;
+  }
+
+  .button_1 {
+    height: 37px;
+    background: white;
+    border: 0;
+    padding-left: 20px;
+    padding-right: 20px;
+    color: black;
+  }
+
+  header {
+    background:maroon;
+    color: white;
+    padding-top: 30px;
+    min-height: 70px;
+    border-bottom: white 3px solid;
+  }
+
+  header a {
+    color: red;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 16px;
+  }
+
+  header li {
+    float: left;
+    display: inline;
+    padding: 5px 20px 0 20px;
+
+ .action {
+    float: right;
+    padding: 5px  20px 0 20px;
+  }
+  }
+
+  header #branding {
+    float: left;
+  }
+
+  header #branding h1 {
+    margin: 0;
+  }
+  header nav {
+    float: left;
+    margin-top: 10px;
+  }
+
+  header .highlight, header .currunt a  {
+    color: orange;
+    font-weight: bold;
+  }
+
+  header a:hover {
+    color: white;
+    font-weight: bold;
+  }
+
+/* Main image */
+
+#showcase {
+  min-height: 400px;
+  background: url('../_img/your_image _name.jpg')no-repeat 0 -400px;
+  text-align: center;
+  color: white;
+  }
+
+  #showcase h1  {
+    margin-top: 100px;
+    font-size: 55px;
+    margin-bottom: 10px;
+  }
+
+  #showcase p{
+    font-size: 20px;
+    color: black;
+  }
+
+/* destination*/
+
+  #destination {
+    padding: 15px;
+      color: black;
+      background-color: maroon;
+  }
+
+  #destination h1  {
+    float: left;
+  }
+
+  #destination form  {
+    float: center;
+    margin-top: 17px;
+  }
+
+  #destination  select{
+    padding: 4px;
+    height: 25px;
+    width: 250;
+  }
+
+  #destination input{
+    padding: 4px;
+    height: 25px;
+    width: 400px;
+  }
+
+  /* boxes*/
+
+  #boxes {
+    margin-top: 20px;
+  }
+
+  #boxes .box {
+    float: left;
+    width: 30%;
+    padding: 10px;
+    text-align: center;
+  }
+
+  #boxes .box img{
+    width: 90px;
+    height: 90px;
+  }
+
+  /* footer*/
+
+  footer {
+    padding: 20px;
+    margin-top: 20px;
+    color: red;
+    background-color: black;
+    text-align: center;
+
+  }
+ figcaption.popup {
+   padding: 10px;
+   background: #elelel;
+   position: absolute;
+   
+   visibility: hidden;
+   }
+   
+figure.thumbnail:hover figcaption.popup {
+   position: absolute;
+   top: 0;
+   left: 100px;
+   
+   
+   visibility: visible;
+  }
+   
+ 
